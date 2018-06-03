@@ -1,0 +1,12 @@
+PODS:
+  - YPTabBarController (2.4.5)
+
+DEPENDENCIES:
+  - YPTabBarController
+
+SPEC CHECKSUMS:
+  YPTabBarController: 4b96499194722e4eaf157325a982466ba191c4ca
+
+PODFILE CHECKSUM: df9a4c9bd7acbb0b410ec1895a6d1746c4fdbd6d
+
+COCOAPODS: 1.4.0

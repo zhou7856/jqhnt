@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F9F81D5AB6F0F7DC63F873CEF707DC /* YPTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 261F6C42C54B74A12C5D90DD7E3D2B24 /* YPTabItem.m */; };
+		14712EA5A4B9559FB9BEE2EB55458569 /* UIScrollView+YPTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = D335A743417044B1B184B8AAF3B1BD33 /* UIScrollView+YPTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31566439DA2FC903F3B150CB0310BD4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		329CDC0C200E35D527C2EE67FB774389 /* YPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4A93C10D82D65944CB99F2234FBCF /* YPTabBarController.m */; };
+		377C051B2F7BC36D18CB12A7A035FE5A /* YPTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06721FD836560FBCB61FC30445129997 /* YPTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43991C4A5F8C025522E8C47690F79A8D /* YPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05091F1047357A7A498A0D544119F7 /* YPTabBar.m */; };
+		6EA8E8254CF86A6AA63A43E92FADAAB8 /* YPTabItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BB1031DD523AE230077985E484FD43 /* YPTabItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75F31047BE577B20E407B1ABCC6125AC /* YPTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE5E99B38CAC2A69D919859BA535C15 /* YPTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A3369882ABC52D2CCA0D75DC24702FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A7A8B351B7A5CE11085994F299EE9393 /* Pods-jqhnt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BA275DFFC6111FDF32CC671715D5E /* Pods-jqhnt-dummy.m */; };
+		BBDDB60C5DFDCACF4A90C449312523FD /* YPTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F39FDF5D576C058340059B3C6E00485 /* YPTabBarController-dummy.m */; };
+		BF27C5F4DD64E4423C566B433065A639 /* UIViewController+YPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A60C12FEEE4C333453A1AB8AB3392 /* UIViewController+YPTabBarController.m */; };
+		EE83DEA782C3A5B1CD9D704127A22C98 /* UIViewController+YPTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 858434BD260EB3A07400E7B62BA9A076 /* UIViewController+YPTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF4F720AEC71C17A6DA2E25B2D7D4A07 /* UIScrollView+YPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96AC6F5301F7E679AB41B61A3583E46 /* UIScrollView+YPTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2140ABA453C881B8D7F4D5923F373A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D7884E3E9806726BCDEF78D7752168;
+			remoteInfo = YPTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06721FD836560FBCB61FC30445129997 /* YPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPTabBarController.h; path = YPTabBarController/YPTabBarController/YPTabBarController.h; sourceTree = "<group>"; };
+		261F6C42C54B74A12C5D90DD7E3D2B24 /* YPTabItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPTabItem.m; path = YPTabBarController/YPTabBarController/YPTabItem.m; sourceTree = "<group>"; };
+		3C76F086F91179FF7E7C0C77FF249E36 /* YPTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPTabBarController.xcconfig; sourceTree = "<group>"; };
+		4B0A60C12FEEE4C333453A1AB8AB3392 /* UIViewController+YPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YPTabBarController.m"; path = "YPTabBarController/YPTabBarController/UIViewController+YPTabBarController.m"; sourceTree = "<group>"; };
+		4B2746964491702297F6B4C18E6E8201 /* Pods-jqhnt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jqhnt-acknowledgements.plist"; sourceTree = "<group>"; };
+		522BA275DFFC6111FDF32CC671715D5E /* Pods-jqhnt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jqhnt-dummy.m"; sourceTree = "<group>"; };
+		5C05091F1047357A7A498A0D544119F7 /* YPTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPTabBar.m; path = YPTabBarController/YPTabBarController/YPTabBar.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EEE3C5ECC425AB93807F4746AB1E475 /* Pods-jqhnt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jqhnt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F39FDF5D576C058340059B3C6E00485 /* YPTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPTabBarController-dummy.m"; sourceTree = "<group>"; };
+		76F0028B8064DFA3A62EE288D44C97D3 /* Pods-jqhnt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jqhnt-frameworks.sh"; sourceTree = "<group>"; };
+		77BB1031DD523AE230077985E484FD43 /* YPTabItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPTabItem.h; path = YPTabBarController/YPTabBarController/YPTabItem.h; sourceTree = "<group>"; };
+		7C537D040D7307D0C87BE8D30E706023 /* libYPTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYPTabBarController.a; path = libYPTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		858434BD260EB3A07400E7B62BA9A076 /* UIViewController+YPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YPTabBarController.h"; path = "YPTabBarController/YPTabBarController/UIViewController+YPTabBarController.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CAAAA454DD293E94A53167E66FB0863 /* Pods-jqhnt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jqhnt-resources.sh"; sourceTree = "<group>"; };
+		A3FD9397575E387FC306E22FD8F414FF /* Pods-jqhnt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jqhnt.release.xcconfig"; sourceTree = "<group>"; };
+		BFE5E99B38CAC2A69D919859BA535C15 /* YPTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPTabBar.h; path = YPTabBarController/YPTabBarController/YPTabBar.h; sourceTree = "<group>"; };
+		C13D28B95E8AB314CA9F949F17A873DB /* libPods-jqhnt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-jqhnt.a"; path = "libPods-jqhnt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D045A3CDE8B850753686F7F312543DB5 /* YPTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		D335A743417044B1B184B8AAF3B1BD33 /* UIScrollView+YPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+YPTabBarController.h"; path = "YPTabBarController/YPTabBarController/UIScrollView+YPTabBarController.h"; sourceTree = "<group>"; };
+		E96AC6F5301F7E679AB41B61A3583E46 /* UIScrollView+YPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+YPTabBarController.m"; path = "YPTabBarController/YPTabBarController/UIScrollView+YPTabBarController.m"; sourceTree = "<group>"; };
+		ECF4A93C10D82D65944CB99F2234FBCF /* YPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPTabBarController.m; path = YPTabBarController/YPTabBarController/YPTabBarController.m; sourceTree = "<group>"; };
+		F54AEAB15C40E8B810C80FBE6004F69D /* Pods-jqhnt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jqhnt.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71D330F3AA9B8977440354E39A3964D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3369882ABC52D2CCA0D75DC24702FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C0876DE5754995F26EA4834A3BE290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31566439DA2FC903F3B150CB0310BD4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118122AFD125C29F1080CF23542F8B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C13D28B95E8AB314CA9F949F17A873DB /* libPods-jqhnt.a */,
+				7C537D040D7307D0C87BE8D30E706023 /* libYPTabBarController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525BEFE2A715EE0BFFA16B83C85E41A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C76F086F91179FF7E7C0C77FF249E36 /* YPTabBarController.xcconfig */,
+				6F39FDF5D576C058340059B3C6E00485 /* YPTabBarController-dummy.m */,
+				D045A3CDE8B850753686F7F312543DB5 /* YPTabBarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YPTabBarController";
+			sourceTree = "<group>";
+		};
+		78D952F5D30B20A1A628683E1D2024FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B29DE1B3400144F8E193464847AB0065 /* YPTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				78D952F5D30B20A1A628683E1D2024FE /* Pods */,
+				118122AFD125C29F1080CF23542F8B16 /* Products */,
+				CC1330A9C0582B8C6DFBB03E27B00A06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B29DE1B3400144F8E193464847AB0065 /* YPTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D335A743417044B1B184B8AAF3B1BD33 /* UIScrollView+YPTabBarController.h */,
+				E96AC6F5301F7E679AB41B61A3583E46 /* UIScrollView+YPTabBarController.m */,
+				858434BD260EB3A07400E7B62BA9A076 /* UIViewController+YPTabBarController.h */,
+				4B0A60C12FEEE4C333453A1AB8AB3392 /* UIViewController+YPTabBarController.m */,
+				BFE5E99B38CAC2A69D919859BA535C15 /* YPTabBar.h */,
+				5C05091F1047357A7A498A0D544119F7 /* YPTabBar.m */,
+				06721FD836560FBCB61FC30445129997 /* YPTabBarController.h */,
+				ECF4A93C10D82D65944CB99F2234FBCF /* YPTabBarController.m */,
+				77BB1031DD523AE230077985E484FD43 /* YPTabItem.h */,
+				261F6C42C54B74A12C5D90DD7E3D2B24 /* YPTabItem.m */,
+				525BEFE2A715EE0BFFA16B83C85E41A4 /* Support Files */,
+			);
+			name = YPTabBarController;
+			path = YPTabBarController;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1330A9C0582B8C6DFBB03E27B00A06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8AB83040D77C9A139CCD98FBBFA2FE6 /* Pods-jqhnt */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8AB83040D77C9A139CCD98FBBFA2FE6 /* Pods-jqhnt */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE3C5ECC425AB93807F4746AB1E475 /* Pods-jqhnt-acknowledgements.markdown */,
+				4B2746964491702297F6B4C18E6E8201 /* Pods-jqhnt-acknowledgements.plist */,
+				522BA275DFFC6111FDF32CC671715D5E /* Pods-jqhnt-dummy.m */,
+				76F0028B8064DFA3A62EE288D44C97D3 /* Pods-jqhnt-frameworks.sh */,
+				9CAAAA454DD293E94A53167E66FB0863 /* Pods-jqhnt-resources.sh */,
+				F54AEAB15C40E8B810C80FBE6004F69D /* Pods-jqhnt.debug.xcconfig */,
+				A3FD9397575E387FC306E22FD8F414FF /* Pods-jqhnt.release.xcconfig */,
+			);
+			name = "Pods-jqhnt";
+			path = "Target Support Files/Pods-jqhnt";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A41CC96FE56B3709A7AA80377D515525 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14712EA5A4B9559FB9BEE2EB55458569 /* UIScrollView+YPTabBarController.h in Headers */,
+				EE83DEA782C3A5B1CD9D704127A22C98 /* UIViewController+YPTabBarController.h in Headers */,
+				75F31047BE577B20E407B1ABCC6125AC /* YPTabBar.h in Headers */,
+				377C051B2F7BC36D18CB12A7A035FE5A /* YPTabBarController.h in Headers */,
+				6EA8E8254CF86A6AA63A43E92FADAAB8 /* YPTabItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EC0D085D47C4AD52B2C128EE9B1D53A /* Pods-jqhnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCD681CB32B55F9B2F6121D463D2CD6 /* Build configuration list for PBXNativeTarget "Pods-jqhnt" */;
+			buildPhases = (
+				62F513BC37FBD49E8F239CD02363ACCE /* Sources */,
+				95C0876DE5754995F26EA4834A3BE290 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C60E663761DFE4DF403AF603CA960C /* PBXTargetDependency */,
+			);
+			name = "Pods-jqhnt";
+			productName = "Pods-jqhnt";
+			productReference = C13D28B95E8AB314CA9F949F17A873DB /* libPods-jqhnt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8D7884E3E9806726BCDEF78D7752168 /* YPTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EE31A773B115689BC4AF42EDE7B529 /* Build configuration list for PBXNativeTarget "YPTabBarController" */;
+			buildPhases = (
+				F563A287F29AD36471E0777386EFB937 /* Sources */,
+				71D330F3AA9B8977440354E39A3964D2 /* Frameworks */,
+				A41CC96FE56B3709A7AA80377D515525 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPTabBarController;
+			productName = YPTabBarController;
+			productReference = 7C537D040D7307D0C87BE8D30E706023 /* libYPTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 118122AFD125C29F1080CF23542F8B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC0D085D47C4AD52B2C128EE9B1D53A /* Pods-jqhnt */,
+				E8D7884E3E9806726BCDEF78D7752168 /* YPTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F513BC37FBD49E8F239CD02363ACCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A8B351B7A5CE11085994F299EE9393 /* Pods-jqhnt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563A287F29AD36471E0777386EFB937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4F720AEC71C17A6DA2E25B2D7D4A07 /* UIScrollView+YPTabBarController.m in Sources */,
+				BF27C5F4DD64E4423C566B433065A639 /* UIViewController+YPTabBarController.m in Sources */,
+				43991C4A5F8C025522E8C47690F79A8D /* YPTabBar.m in Sources */,
+				BBDDB60C5DFDCACF4A90C449312523FD /* YPTabBarController-dummy.m in Sources */,
+				329CDC0C200E35D527C2EE67FB774389 /* YPTabBarController.m in Sources */,
+				08F9F81D5AB6F0F7DC63F873CEF707DC /* YPTabItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33C60E663761DFE4DF403AF603CA960C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPTabBarController;
+			target = E8D7884E3E9806726BCDEF78D7752168 /* YPTabBarController */;
+			targetProxy = 2140ABA453C881B8D7F4D5923F373A22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		762CA647C15E0BE3F1F1B554C8ADA58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C76F086F91179FF7E7C0C77FF249E36 /* YPTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPTabBarController/YPTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E962ED091FAD442B4049705F103E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FD9397575E387FC306E22FD8F414FF /* Pods-jqhnt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		949D51E494789082938C5950A20B05F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C76F086F91179FF7E7C0C77FF249E36 /* YPTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YPTabBarController/YPTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6924B29213ED6278A2160ECE49FDB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54AEAB15C40E8B810C80FBE6004F69D /* Pods-jqhnt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EE31A773B115689BC4AF42EDE7B529 /* Build configuration list for PBXNativeTarget "YPTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949D51E494789082938C5950A20B05F3 /* Debug */,
+				762CA647C15E0BE3F1F1B554C8ADA58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCD681CB32B55F9B2F6121D463D2CD6 /* Build configuration list for PBXNativeTarget "Pods-jqhnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6924B29213ED6278A2160ECE49FDB4C /* Debug */,
+				89E962ED091FAD442B4049705F103E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
