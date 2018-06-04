@@ -15,6 +15,8 @@
 #import "SetupViewController.h"
 #import "ContractViewController.h"
 #import "LoginViewController.h"
+#import "ModifyPasswordViewController.h"
+#import "MessageDetailsViewController.h"
 
 @interface AppDelegate ()
 
@@ -26,7 +28,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    SetupViewController *controller = [[SetupViewController alloc] init];
+    MessageDetailsViewController *controller = [[MessageDetailsViewController alloc] init];
   
     self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];

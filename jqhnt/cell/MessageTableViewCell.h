@@ -14,7 +14,7 @@
 
 @property (strong, nonatomic)  UILabel *messageNumLab;//消息条数
 
-@property (strong, nonatomic)  UILabel *messNameLab;//公司名
+@property (strong, nonatomic)  UILabel *companyNameLab;//公司名
 @property (strong, nonatomic)  UILabel *messNeirongLab;//消息内容
 @property (strong, nonatomic)  UILabel *messageTimeLab;//消息时间
 

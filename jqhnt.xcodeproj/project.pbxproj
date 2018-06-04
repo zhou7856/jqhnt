@@ -12,6 +12,8 @@
 		4E05741020BF8DFB00493F15 /* RefundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E05740F20BF8DFB00493F15 /* RefundTableViewCell.m */; };
 		4E05741620BFA98500493F15 /* RefundTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E05741520BFA98500493F15 /* RefundTwoViewController.m */; };
 		4E05741F20BFC7D000493F15 /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E05741E20BFC7D000493F15 /* MyOrderViewController.m */; };
+		4E1EB5EC20C4C8B500B206A6 /* ModifyPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EB5EB20C4C8B500B206A6 /* ModifyPasswordViewController.m */; };
+		4E1EB5EF20C4DE4D00B206A6 /* MessageDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EB5EE20C4DE4D00B206A6 /* MessageDetailsViewController.m */; };
 		4E423F8B20C3800A00AE665E /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E423F8720C3800900AE665E /* SetupViewController.m */; };
 		4E423F8C20C3800A00AE665E /* ModifyContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E423F8820C3800900AE665E /* ModifyContactViewController.m */; };
 		4E423F8D20C3800A00AE665E /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E423F8920C3800900AE665E /* MessageViewController.m */; };
@@ -42,6 +44,10 @@
 		4E05741520BFA98500493F15 /* RefundTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefundTwoViewController.m; sourceTree = "<group>"; };
 		4E05741D20BFC7D000493F15 /* MyOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOrderViewController.h; sourceTree = "<group>"; };
 		4E05741E20BFC7D000493F15 /* MyOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOrderViewController.m; sourceTree = "<group>"; };
+		4E1EB5EA20C4C8B500B206A6 /* ModifyPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModifyPasswordViewController.h; path = jqhnt/ModifyPasswordViewController.h; sourceTree = SOURCE_ROOT; };
+		4E1EB5EB20C4C8B500B206A6 /* ModifyPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModifyPasswordViewController.m; path = jqhnt/ModifyPasswordViewController.m; sourceTree = SOURCE_ROOT; };
+		4E1EB5ED20C4DE4D00B206A6 /* MessageDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageDetailsViewController.h; sourceTree = "<group>"; };
+		4E1EB5EE20C4DE4D00B206A6 /* MessageDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageDetailsViewController.m; sourceTree = "<group>"; };
 		4E423F8720C3800900AE665E /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
 		4E423F8820C3800900AE665E /* ModifyContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyContactViewController.m; sourceTree = "<group>"; };
 		4E423F8920C3800900AE665E /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
@@ -115,8 +121,6 @@
 				4E49543820BE3512004EBD93 /* AppDelegate.m */,
 				4E49543A20BE3512004EBD93 /* ViewController.h */,
 				4E49543B20BE3512004EBD93 /* ViewController.m */,
-				4E423F9020C3807A00AE665E /* MessageViewController.h */,
-				4E423F8920C3800900AE665E /* MessageViewController.m */,
 				4E423F9120C380A600AE665E /* ModifyContactViewController.h */,
 				4E423F8820C3800900AE665E /* ModifyContactViewController.m */,
 				4E423F9220C380C400AE665E /* PhonenterfaceViewController.h */,
@@ -144,6 +148,12 @@
 				4E05741520BFA98500493F15 /* RefundTwoViewController.m */,
 				4E05741D20BFC7D000493F15 /* MyOrderViewController.h */,
 				4E05741E20BFC7D000493F15 /* MyOrderViewController.m */,
+				4E1EB5EA20C4C8B500B206A6 /* ModifyPasswordViewController.h */,
+				4E1EB5EB20C4C8B500B206A6 /* ModifyPasswordViewController.m */,
+				4E423F9020C3807A00AE665E /* MessageViewController.h */,
+				4E423F8920C3800900AE665E /* MessageViewController.m */,
+				4E1EB5ED20C4DE4D00B206A6 /* MessageDetailsViewController.h */,
+				4E1EB5EE20C4DE4D00B206A6 /* MessageDetailsViewController.m */,
 			);
 			path = jqhnt;
 			sourceTree = "<group>";
@@ -303,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E49550320BE8472004EBD93 /* PlaceOrderViewController.m in Sources */,
+				4E1EB5EC20C4C8B500B206A6 /* ModifyPasswordViewController.m in Sources */,
 				4E49544F20BE356F004EBD93 /* LoginViewController.m in Sources */,
 				4E423F8B20C3800A00AE665E /* SetupViewController.m in Sources */,
 				4E05740D20BF8AB300493F15 /* RefundViewController.m in Sources */,
@@ -320,6 +331,7 @@
 				4E4954F920BE5424004EBD93 /* TabBarViewController.m in Sources */,
 				4E49543920BE3512004EBD93 /* AppDelegate.m in Sources */,
 				4E05741F20BFC7D000493F15 /* MyOrderViewController.m in Sources */,
+				4E1EB5EF20C4DE4D00B206A6 /* MessageDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

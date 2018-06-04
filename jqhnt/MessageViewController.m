@@ -7,6 +7,8 @@
 //
 
 #import "MessageViewController.h"
+#import "MessageTableViewCell.h"
+#import "MessageDetailsViewController.h"
 
 @interface MessageViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (strong,nonatomic)UITableView *tableView;
@@ -72,23 +74,34 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     NSString *identifier = @"reuseActivityCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    MessageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        cell = [[MessageTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
 
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 
-    cell.textLabel.text=@"12234";
-
-
+    cell.messageNumLab.backgroundColor=[UIColor redColor];
+    cell.messageNumLab.text=@"11";
+    cell.companyNameLab.text=@"安琥PPPPpp有限公司";
+    cell.messNeirongLab.text=@"您的二月对账单已送达";
+    cell.messageTimeLab.text=@"2018/03/04";
 
     return cell;
 
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"点击单元格");
+    MessageDetailsViewController *hvc = [[MessageDetailsViewController alloc] init];
+   [self presentViewController:hvc animated:YES completion:nil];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // Dispose of any resources that can be recreated.  ProductlistViewController *hvc = [[ProductlistViewController alloc] init];
+   // [self presentViewController:hvc animated:YES completion:nil];
 }
 
 /*
