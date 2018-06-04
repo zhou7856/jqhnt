@@ -82,6 +82,11 @@
     rightImg.image=[UIImage imageNamed:@"icon_navigation_return"];
     [modifyPasswordView addSubview:rightImg];
 
+    UILabel *versionNumberzLab=[[UILabel alloc] initWithFrame:CGRectMake(versionNumberView.frame.size.width-60, 0, 80, 40)];
+    versionNumberzLab.text=@"v1.0.0.0";
+    versionNumberzLab.font=[UIFont fontWithName:@"AmericanTypewriter" size:13];
+    [versionNumberView addSubview:versionNumberzLab];
+
 
 
 

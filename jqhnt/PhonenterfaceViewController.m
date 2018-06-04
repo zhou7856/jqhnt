@@ -68,6 +68,8 @@
     lxrLab.font=[UIFont fontWithName:@"AmericanTypewriter" size:12];
     [bottom_topview addSubview:lxrLab];
 
+    
+
     UILabel *lxrPhoneNumLab=[[UILabel alloc] initWithFrame:CGRectMake(100, 0, 100, 40)];
     lxrPhoneNumLab.text=@"181****1234";
     lxrPhoneNumLab.font=[UIFont fontWithName:@"AmericanTypewriter" size:12];
@@ -93,14 +95,22 @@
     yzmLab.font=[UIFont fontWithName:@"AmericanTypewriter" size:12];
     [bottom_toptwoview addSubview:yzmLab];
 
-   yzmTextFiled=[[UITextField alloc] initWithFrame:CGRectMake(100, 2.5, bottom_topview.frame.size.width-100, 35)];
+    UIView *yzmTextFiledView=[[UIView alloc] initWithFrame:CGRectMake(100, 2.5, bottom_topview.frame.size.width-100, 35)];
+    yzmTextFiledView.layer.cornerRadius=3;
+    yzmTextFiledView.layer.masksToBounds=YES;
+    yzmTextFiledView.backgroundColor=[UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1];
+    [bottom_toptwoview addSubview:yzmTextFiledView];
+
+    
+
+   yzmTextFiled=[[UITextField alloc] initWithFrame:CGRectMake(10, 0, bottom_topview.frame.size.width-50, 35)];
     yzmTextFiled.delegate=self;
     yzmTextFiled.placeholder=@"验证码";
      [yzmTextFiled setValue:[UIFont  fontWithName:@"AmericanTypewriter" size:12] forKeyPath:@"_placeholderLabel.font"];
     yzmTextFiled.backgroundColor=[UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1];
     yzmTextFiled.layer.cornerRadius=5;
     yzmTextFiled.layer.masksToBounds=YES;
-    [bottom_toptwoview addSubview:yzmTextFiled];
+    [yzmTextFiledView addSubview:yzmTextFiled];
 
 
     xybBtn=[[UIButton alloc] initWithFrame:CGRectMake(0, 2.5, bottomview.frame.size.width-40, 35)];

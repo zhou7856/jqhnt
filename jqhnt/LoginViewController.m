@@ -107,6 +107,7 @@
 
     UITextField *phonetextfiled=[[UITextField alloc] initWithFrame:CGRectMake(10, 0, phonetextview.frame.size.width, phonetextview.frame.size.height)];
     phonetextfiled.placeholder=@"请输入手机号码";
+    [phonetextfiled setValue:[UIFont  fontWithName:@"AmericanTypewriter" size:13] forKeyPath:@"_placeholderLabel.font"];
     [phonetextfiled setValue:[UIColor colorWithRed:200.0/255 green:200.0/255 blue:200.0/255 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
     [phonetextview addSubview:phonetextfiled];
 
@@ -134,6 +135,7 @@
 
     UITextField *passwordextfiled=[[UITextField alloc] initWithFrame:CGRectMake(10, 0, passwordview.frame.size.width, passwordview.frame.size.height)];
     passwordextfiled.placeholder=@"请输入密码";
+     [passwordextfiled setValue:[UIFont  fontWithName:@"AmericanTypewriter" size:13] forKeyPath:@"_placeholderLabel.font"];
     [passwordextfiled setValue:[UIColor colorWithRed:200.0/255 green:200.0/255 blue:200.0/255 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
     [passwordtextview addSubview:passwordextfiled];
 
@@ -150,7 +152,7 @@
     [bottomview addSubview:forgetbtn];
 
 
-    UIButton *loginbtn=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, bottomview.frame.size.width-40, 40)];
+    UIButton *loginbtn=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, bottomview.frame.size.width-40, 35)];
     loginbtn.center=CGPointMake(bottomview.frame.size.width/2, bottomview.frame.size.height/2);
     loginbtn.backgroundColor=[UIColor colorWithRed:129.0/255 green:160.0/255 blue:194.0/255 alpha:1];;
     [loginbtn setTitle:@"登  录" forState:UIControlStateNormal];
